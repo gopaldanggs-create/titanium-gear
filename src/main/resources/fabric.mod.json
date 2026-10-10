@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "titanium_gear",
+  "version": "${version}",
+  "name": "Titanium Gear",
+  "description": "Adds titanium ore (found in Windswept Gravelly Hills), titanium armor, tools and a titanium mace.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/titanium_gear/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.titaniumgear.TitaniumGear"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
