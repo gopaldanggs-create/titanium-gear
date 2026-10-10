@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "titanium_gear:titanium_helmet",
+    "titanium_gear:titanium_chestplate",
+    "titanium_gear:titanium_leggings",
+    "titanium_gear:titanium_boots"
+  ]
+}

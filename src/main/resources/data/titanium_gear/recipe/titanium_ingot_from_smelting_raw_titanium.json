@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "titanium_gear:raw_titanium",
+  "result": {
+    "id": "titanium_gear:titanium_ingot"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

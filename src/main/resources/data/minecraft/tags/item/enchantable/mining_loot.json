@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "titanium_gear:titanium_pickaxe",
+    "titanium_gear:titanium_axe",
+    "titanium_gear:titanium_shovel",
+    "titanium_gear:titanium_hoe"
+  ]
+}

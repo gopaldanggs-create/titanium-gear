@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "titanium_gear:titanium_axe",
+      "titanium_gear:titanium_boots",
+      "titanium_gear:titanium_chestplate",
+      "titanium_gear:titanium_helmet",
+      "titanium_gear:titanium_hoe",
+      "titanium_gear:titanium_ingot_from_blasting_raw_titanium",
+      "titanium_gear:titanium_ingot_from_blasting_titanium_ore",
+      "titanium_gear:titanium_ingot_from_smelting_raw_titanium",
+      "titanium_gear:titanium_ingot_from_smelting_titanium_ore",
+      "titanium_gear:titanium_leggings",
+      "titanium_gear:titanium_mace",
+      "titanium_gear:titanium_pickaxe",
+      "titanium_gear:titanium_shovel",
+      "titanium_gear:titanium_sword"
+    ]
+  }
+}

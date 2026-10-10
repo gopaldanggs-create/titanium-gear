@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "titanium_gear:titanium"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "titanium_gear:titanium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "titanium_gear:titanium"
+      }
+    ]
+  }
+}

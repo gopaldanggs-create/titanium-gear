@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "titanium_gear:titanium_helmet",
+    "titanium_gear:titanium_chestplate",
+    "titanium_gear:titanium_leggings",
+    "titanium_gear:titanium_boots",
+    "titanium_gear:titanium_sword",
+    "titanium_gear:titanium_pickaxe",
+    "titanium_gear:titanium_axe",
+    "titanium_gear:titanium_shovel",
+    "titanium_gear:titanium_hoe",
+    "titanium_gear:titanium_mace"
+  ]
+}
