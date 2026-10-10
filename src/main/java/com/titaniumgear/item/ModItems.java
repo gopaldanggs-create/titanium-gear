@@ -11,13 +11,10 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.MaceItem;
 import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.equipment.ArmorType;
 
@@ -47,12 +44,12 @@ public class ModItems {
 			new Item.Properties().sword(TitaniumMaterials.TOOL, 3.0F, -2.4F));
 	public static final Item TITANIUM_PICKAXE = register("titanium_pickaxe", Item::new,
 			new Item.Properties().pickaxe(TitaniumMaterials.TOOL, 1.0F, -2.8F));
-	public static final Item TITANIUM_AXE = register("titanium_axe",
-			settings -> new AxeItem(TitaniumMaterials.TOOL, 5.0F, -3.0F, settings), new Item.Properties());
-	public static final Item TITANIUM_SHOVEL = register("titanium_shovel",
-			settings -> new ShovelItem(TitaniumMaterials.TOOL, 1.5F, -3.0F, settings), new Item.Properties());
-	public static final Item TITANIUM_HOE = register("titanium_hoe",
-			settings -> new HoeItem(TitaniumMaterials.TOOL, -3.5F, 0.0F, settings), new Item.Properties());
+	public static final Item TITANIUM_AXE = register("titanium_axe", Item::new,
+			new Item.Properties().axe(TitaniumMaterials.TOOL, 5.0F, -3.0F));
+	public static final Item TITANIUM_SHOVEL = register("titanium_shovel", Item::new,
+			new Item.Properties().shovel(TitaniumMaterials.TOOL, 1.5F, -3.0F));
+	public static final Item TITANIUM_HOE = register("titanium_hoe", Item::new,
+			new Item.Properties().hoe(TitaniumMaterials.TOOL, -3.5F, 0.0F));
 
 	// --- mace (vanilla MaceItem gives the smash attack; vanilla mace: 500 durability, 5 damage, -3.4 speed)
 	public static final Item TITANIUM_MACE = register("titanium_mace", MaceItem::new, new Item.Properties()
