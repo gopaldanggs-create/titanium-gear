@@ -1,0 +1,10 @@
+{
+  "feature": "titanium_gear:titanium_ore",
+  "placement": [
+    {"type": "minecraft:rarity_filter", "chance": 3},
+    {"type": "minecraft:count", "count": {"type": "minecraft:uniform", "min_inclusive": 1, "max_inclusive": 2}},
+    {"type": "minecraft:in_square"},
+    {"type": "minecraft:height_range", "height": {"type": "minecraft:uniform", "min_inclusive": {"absolute": 0}, "max_inclusive": {"absolute": 110}}},
+    {"type": "minecraft:biome"}
+  ]
+}
